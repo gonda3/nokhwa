@@ -19,7 +19,7 @@ exclude = ["examples/jscam"]
 crate-type = ["cdylib", "rlib"]
 
 [features]
-default = ["flume", "decoding"]
+default = ["input-msmf"]
 serialize = ["serde", "nokhwa-core/serialize"]
 decoding = ["nokhwa-core/mjpeg"]
 input-avfoundation = ["nokhwa-bindings-macos"]
