@@ -19,7 +19,7 @@ exclude = ["examples/jscam"]
 crate-type = ["cdylib", "rlib"]
 
 [features]
-default = ["decoding-yuv","decoding-mozjpeg"]
+default = ["input-native"]
 serialize = ["serde", "nokhwa-core/serialize"]
 decoding-yuv = ["mozjpeg"]
 decoding-mozjpeg = ["mozjpeg"]
